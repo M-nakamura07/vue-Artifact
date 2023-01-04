@@ -11,12 +11,12 @@
           </li>
           <li>
             <h3>業績</h3>
-            <img src="../assets/pankaj-patel-Ylk5n_nd9dA-unsplash.jpg" alt="">
+            <img src="../assets/frederik-lipfert-y67dwfB2AiM-unsplash.jpg" alt="">
             <p>テキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキスト</p>
           </li>
           <li>
             <h3>業績</h3>
-            <img src="../assets/frederik-lipfert-y67dwfB2AiM-unsplash.jpg" alt="">
+            <img src="../assets/pankaj-patel-Ylk5n_nd9dA-unsplash.jpg" alt="">
             <p>テキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキスト</p>
           </li>
         </ol>
