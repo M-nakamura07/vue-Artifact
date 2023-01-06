@@ -5,19 +5,19 @@
       <div class="achievement-list">
         <ol>
           <li>
-            <h3>業績</h3>
+            <h3>{{ title }}</h3>
             <img src="../assets/web-design-ga61694936_1280.jpg" alt="">
-            <p>テキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>{{ description }}</p>
           </li>
           <li>
-            <h3>業績</h3>
+            <h3>{{ title }}</h3>
             <img src="../assets/pankaj-patel-Ylk5n_nd9dA-unsplash.jpg" alt="">
-            <p>テキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>{{ description }}</p>
           </li>
           <li>
-            <h3>業績</h3>
+            <h3>{{ title }}</h3>
             <img src="../assets/frederik-lipfert-y67dwfB2AiM-unsplash.jpg" alt="">
-            <p>テキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>{{ description }}</p>
           </li>
         </ol>
       </div>
@@ -27,7 +27,12 @@
 
 <script>
 export default {
-  
+  data() {
+    return {
+      title: '業績',
+      description: 'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト'
+    }
+  }
 }
 </script>
 
@@ -68,7 +73,7 @@ export default {
 }
 
 .achievement p {
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -88,7 +93,7 @@ export default {
   }
 
   .achievement p {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .achievement img {
