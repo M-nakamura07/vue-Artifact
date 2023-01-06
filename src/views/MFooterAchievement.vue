@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="footer">
-      <small>&copy;MASATOSHI NAKAMUMURA 2022</small>
+      <small>&copy;MASATOSHI NAKAMUMURA</small>
     </div>
   </div>
 </template>
