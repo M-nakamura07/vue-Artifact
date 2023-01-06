@@ -96,7 +96,6 @@ form h2 {
   padding-top: 42px;
 }
 
-
 form p {
   font-size: 18px;
 }
