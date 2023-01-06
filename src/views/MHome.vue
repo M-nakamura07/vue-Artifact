@@ -28,7 +28,6 @@
 import axios from 'axios';
 import { Carousel, Slide } from 'vue-carousel';
 
-
 export default {
   components: {
     Carousel,
